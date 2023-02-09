@@ -1,7 +1,7 @@
 //Enums
 
 enum Roles {
-    user,
-    admin,
+    User,
+    Admin,
     SuperAdmin
 }
