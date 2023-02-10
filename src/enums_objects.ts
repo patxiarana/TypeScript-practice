@@ -1,7 +1,9 @@
 //Enums
 
 enum Roles {
-    User,
-    Admin,
-    SuperAdmin
+    User = "USER",
+    Admin = "ADMIN",
+    SuperAdmin = "SUPERADMIN"
 }
+
+console.log(Roles)
