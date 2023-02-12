@@ -1,13 +1,12 @@
 /*
-function greet (name: string) {
+function greet (name: string):void {
     console.log(`hello..${name.toUpperCase()} !!`)
 }
 
 
 greet('true')*/
 
-
-function getNumber() {
+function getNumber(): number {
     return Math.floor(Math.random() *100)
 }
 
