@@ -1,12 +1,17 @@
 "use strict";
 /*
-function greet (name: string) {
+function greet (name: string):void {
     console.log(`hello..${name.toUpperCase()} !!`)
 }
 
+greet('true')
 
-greet('true')*/
-function getNumber() {
-    return Math.floor(Math.random() * 100);
+function getNumber(): number {
+    return Math.floor(Math.random() *100)
 }
-console.log(getNumber());
+
+console.log(getNumber())  */
+function printPosition(position) {
+    console.log(`postions is lat${position.lat} and long ${position.long}`);
+}
+printPosition({ lat: 4, long: 4 });
