@@ -10,3 +10,5 @@ const book : Book = {
 title : 'my first interfaces',
 author : 'patxi arana' ,
 }
+
+const books : Book[] = [] ;
