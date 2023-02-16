@@ -21,3 +21,8 @@ function getBook() : Book {
 
 
 const myBook = getBook() ; 
+
+
+function creatBook(book:Book): Book {
+    return book;
+}
