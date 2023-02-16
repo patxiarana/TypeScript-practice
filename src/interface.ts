@@ -12,3 +12,12 @@ author : 'patxi arana' ,
 }
 
 const books : Book[] = [] ;
+
+
+function getBook() : Book {
+    return {id : 1 , title : "my tittle", author:'Patxi'} ;
+}
+
+
+
+const myBook = getBook() ; 
