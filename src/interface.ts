@@ -2,6 +2,7 @@ interface Book {
 id : number ;
 title : string ;
 author : string ;
+coAuthor ? :string ;
 }
 
 
@@ -26,3 +27,11 @@ const myBook = getBook() ;
 function creatBook(book:Book): Book {
     return book;
 }
+
+const newBook : Book = {
+id : 1 ,
+title : "my tittle", 
+author:'Patxi' ,
+coAuthor : 'PatxiDev'
+}
+creatBook(newBook) 
