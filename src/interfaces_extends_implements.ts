@@ -1,6 +1,11 @@
 //  Interfaces
 
 
+interface Person {
+    id : number;
+    name:string;
+    }
+
 interface Employee {
 id : number;
 name:string;
