@@ -3,6 +3,7 @@ id : number ;
 title : string ;
 author : string ;
 coAuthor ? :string ;
+isLoan ?: (id : number) => void 
 }
 
 
