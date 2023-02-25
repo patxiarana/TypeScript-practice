@@ -16,3 +16,8 @@ interface Customer  extends Person{
     country: string ;
     }
 
+interface GetDog  {
+    getDogs : () => void ;
+    getCats : () => void ;
+
+}
