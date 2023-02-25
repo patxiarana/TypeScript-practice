@@ -4,8 +4,14 @@ class Employee {
     name !: string ; 
     dept !: string ;
 
+    constructor () {
+        this.showInfo() ;
+    }
     //Metodos 
-constructor () {}
+    showInfo() : void {
+        console.log(`${this.name}`)
+    }
+
 }
 
 const emp = new Employee();
