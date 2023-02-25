@@ -16,8 +16,17 @@ interface Customer  extends Person{
     country: string ;
     }
 
-interface GetDog  {
+interface Animal {
     getDogs : () => void ;
     getCats : () => void ;
 
+}
+
+class Zoo implements Animal {
+    getDogs (): void {
+        //
+    } 
+    getCats (): void {
+        //
+    }
 }
