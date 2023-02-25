@@ -17,16 +17,18 @@ interface Customer  extends Person{
     }
 
 interface Animal {
+    name: string ;
     getDogs : () => void ;
-    getCats : () => void ;
+    getCats ?: () => void ;
 
 }
 
 class Zoo implements Animal {
+    name = "Zoo";
     getDogs (): void {
         //
     } 
-    getCats (): void {
+   /* getCats (): void {
         //
-    }
+    } */
 }
