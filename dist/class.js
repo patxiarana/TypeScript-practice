@@ -1,7 +1,10 @@
 "use strict";
 class Employee {
     constructor(id, name, dept) {
-        this.showInfo();
+        this.id = id,
+            this.name = name,
+            this.dept = dept,
+            this.showInfo();
     }
     //Metodos 
     showInfo() {
