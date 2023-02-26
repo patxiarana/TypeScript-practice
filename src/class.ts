@@ -4,7 +4,7 @@ class Employee {
     name !: string ; 
     dept !: string ;
 
-    constructor () {
+    constructor (id:number, name:String, dept:String) {
         this.showInfo() ;
     }
     //Metodos 
@@ -14,4 +14,4 @@ class Employee {
 
 }
 
-const emp = new Employee();
+const emp = new Employee(4, "juan", "IT");

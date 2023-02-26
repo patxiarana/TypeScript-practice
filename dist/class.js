@@ -1,6 +1,6 @@
 "use strict";
 class Employee {
-    constructor() {
+    constructor(id, name, dept) {
         this.showInfo();
     }
     //Metodos 
@@ -8,4 +8,4 @@ class Employee {
         console.log(`${this.name}`);
     }
 }
-const emp = new Employee();
+const emp = new Employee(4, "juan", "IT");
