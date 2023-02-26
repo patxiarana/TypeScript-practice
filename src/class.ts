@@ -4,7 +4,11 @@ class Employee {
     name !: string ; 
     dept !: string ;
 
-    constructor (id:number, name:String, dept:String) {
+    constructor (id:number, name:string, dept:string) {
+        this.id = id ,
+        this.name = name ,
+        this.dept = dept ,
+
         this.showInfo() ;
     }
     //Metodos 
