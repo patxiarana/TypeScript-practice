@@ -1,9 +1,9 @@
 class Employee {
-    //Atributos 
-    id !: number ;
-    name !: string ; 
-    dept !: string ;
-
+     //Atributos 
+     private id !: number ;
+      private name !: string ; 
+        dept !: string ;
+   
     constructor (id:number, name:string, dept:string) {
         this.id = id ,
         this.name = name ,
@@ -12,7 +12,7 @@ class Employee {
         this.showInfo() ;
     }
     //Metodos 
-    showInfo() : void {
+   private  showInfo() : void {
         console.log(`${this.name}`)
     }
 
