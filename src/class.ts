@@ -1,21 +1,21 @@
 class Employee {
      //Atributos 
-     private id !: number ;
-      private name !: string ; 
-        dept !: string ;
+   //  private id !: number ;
+     // private name !: string ; 
+       // dep !: string ;
    
-    constructor (id:number, name:string, dept:string) {
-        this.id = id ,
-        this.name = name ,
-        this.dept = dept ,
+    constructor (private id:number, private name:string, private dep:string) {
+    //    this.id = id ,
+      //  this.name = name ,
+      //  this.dept = dept ,
 
         this.showInfo() ;
     }
     //Metodos 
    private  showInfo() : void {
-        console.log(`${this.name}`)
+        console.log(`${this.name + this.dept}`)
     }
 
 }
 
-const emp = new Employee(4, "juan", "IT");
+const emp = new Employee(4,"juan","IT");
