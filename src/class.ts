@@ -1,3 +1,12 @@
+class person {
+    constructor() {}
+
+    greet() : void {
+        console.log("greeting")
+    }
+
+}
+
 class Employee {
      //Atributos 
    //  private id !: number ;
@@ -13,7 +22,7 @@ class Employee {
     }
     //Metodos 
    private  showInfo() : void {
-        console.log(`${this.name + this.dept}`)
+        console.log(`${this.name + this.dep}`)
     }
 
 }
