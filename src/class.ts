@@ -1,6 +1,8 @@
 class  Person {
     constructor() { }
-
+    public zone = "Latinoamerica baby "
+      protected city = "Santiago de Compostela"
+      private country = "Argentina"
     greet() : void {
         console.log("greeting")
     }
