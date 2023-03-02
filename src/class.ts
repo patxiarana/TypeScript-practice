@@ -1,23 +1,24 @@
-class person {
-    constructor() {}
+class  Person {
+    constructor() { }
 
     greet() : void {
         console.log("greeting")
     }
 
-}
+} ;
 
-class Employee {
+class Employee extends Person {
      //Atributos 
    //  private id !: number ;
      // private name !: string ; 
        // dep !: string ;
    
     constructor (private id:number, private name:string, private dep:string) {
-    //    this.id = id ,
+        super()
+        //    this.id = id ,
       //  this.name = name ,
       //  this.dept = dept ,
-
+     
         this.showInfo() ;
     }
     //Metodos 

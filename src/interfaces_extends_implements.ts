@@ -6,10 +6,10 @@ interface Person {
     name:string;
     }
 
-interface Employee extends Person  {
+/*interface Employee extends Person  {
 dept: string ;
 }
-
+ */
 
 
 interface Customer  extends Person{
