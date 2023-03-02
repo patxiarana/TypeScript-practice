@@ -11,10 +11,10 @@ dept: string ;
 }
  */
 
-
+/*
 interface Customer  extends Person{
     country: string ;
-    }
+    } */
 
 interface Animal {
     name: string ;
