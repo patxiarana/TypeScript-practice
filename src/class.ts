@@ -15,7 +15,7 @@ class Employee extends Person {
      // private name !: string ; 
        // dep !: string ;
    
-    constructor (private id:number, private name:string, private dep:string) {
+    constructor (/*private*/ id:number, /*private*/ name:string, /*private*/ dep:string) {
         super()
         //    this.id = id ,
       //  this.name = name ,
@@ -25,7 +25,7 @@ class Employee extends Person {
     }
     //Metodos 
    private  showInfo() : void {
-        console.log(`${this.name + this.dep}`)
+        console.log(`${this.name} ${this.city}`)
     }
 
 }
